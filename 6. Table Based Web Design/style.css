@@ -1,0 +1,57 @@
+.mynav{
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+.mynav li{}
+.mynav li a{
+	background: #666;
+	color: #DDD;
+	display: block;
+	padding: 5px;
+	margin-bottom: 1px;
+	text-decoration: none;
+}
+.mynav li a:hover { 
+	background: #444;
+}
+.mainnav{
+	margin: 0;
+	padding: 0;
+	list-style: none;	
+}
+.mainnav li{
+	float: left;
+}
+.mainnav li a{
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 2px;
+	color: #FFF;
+	background: #333;
+}
+.mainnav li a:hover{
+	color: #333;
+	background: #FFF;
+}
+table.mytable{
+	margin: 20px 10px 10px 80px;
+	width:900px;
+}
+table.mytable tr td {
+	text-align: center;
+}
+table.mytable tr th {
+	text-align: center;
+	background: #444;
+	color: #FFF;
+	padding: 5px;
+}
+table.mytable tr:nth-child(2n+1){
+	background:#FFF;
+	height: 30px;
+}
+table.mytable tr:nth-child(2n){
+	background:#BAB9BA;
+	height: 30px;
+}
